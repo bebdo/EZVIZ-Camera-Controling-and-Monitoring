@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# EZVIZ Credentials (JANGAN PUSH!)
+ezviz_config.json
+ezviz_config.example.json
+
+# Testing files dengan credentials
+test_real_rtsp.py
+check_cloud_stream.py
+check_cloud_api.py
+quick_rtsp_test.py
+test_rtsp.py
+
+# Extra documentation (tidak perlu)
+README_EZVIZ.md
+README_GUI.md
+README_RTSP.md
+README_WIREGUARD.md
+
+# WireGuard Config
+*.conf
+server_privatekey
+server_publickey
+client_privatekey
+client_publickey
+
+# Screenshots/Snapshots
+snapshot_*.jpg
+*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Docker
+docker-compose.yaml
+prometheus.yaml

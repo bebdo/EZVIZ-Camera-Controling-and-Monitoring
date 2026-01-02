@@ -1,0 +1,5 @@
+# Requirements untuk EZVIZ GUI
+pyezvizapi
+customtkinter
+pillow
+opencv-python
